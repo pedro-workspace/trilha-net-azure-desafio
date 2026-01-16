@@ -14,7 +14,7 @@ builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
-// Swagger
+// Swagger - Habilitado em todos os ambientes para Azure
 app.UseSwagger();
 app.UseSwaggerUI();
 
